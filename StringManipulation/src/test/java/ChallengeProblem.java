@@ -1,3 +1,4 @@
+import challengeproblem.FileReaderVsInputStreamReader;
 import challengeproblem.StringBuilderVsStringBuffer;
 import org.junit.jupiter.api.Test;
 import stringbuffer.Compare;
@@ -10,5 +11,10 @@ public class ChallengeProblem {
         Long arr[]= StringBuilderVsStringBuffer.stringBuilderVsStringBuffer("Abhishek");
         assertTrue(arr[0] > arr[1]);
 
+    }
+    @Test
+    void fileReaderInputStreamReader(){
+        long arr[]= FileReaderVsInputStreamReader.fileReaderVsInputReader("C:\\Users\\rajab\\Downloads\\example.bin");
+        assertTrue(arr[0] > arr[1]);
     }
 }
