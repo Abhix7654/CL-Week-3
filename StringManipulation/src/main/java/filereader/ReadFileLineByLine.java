@@ -4,9 +4,8 @@ import java.io.*;
 
 public class ReadFileLineByLine {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\rajab\\Downloads\\example.txt";
+        String filePath = "C:\\Users\\rajab\\Downloads\\binary-output.bin";
         String fileContent = readFile(filePath);
-
         System.out.println(fileContent);
 
          }
