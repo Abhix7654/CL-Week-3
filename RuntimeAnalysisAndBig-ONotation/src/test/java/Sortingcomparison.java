@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import searchtargetinlargedataset.SortingComparison;
+import sortinglargedataefficiently.SortingComparison;
 
 public class Sortingcomparison {
     @Test
